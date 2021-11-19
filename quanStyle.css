@@ -331,7 +331,8 @@ footer.footClass ul li {
   text-align: center;
   background-color: #666;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 90px;
+  margin-bottom: 20px;
   padding: 36px 24px 40px 24px;
   border-radius: 7px;
   background-color: #fff;
@@ -412,7 +413,7 @@ div.rightSide-Col {
 }
 
 /*MOBILE*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   ul.topnav li:not(:nth-child(1)) {
     display: none;
   }
@@ -450,6 +451,10 @@ div.rightSide-Col {
   .col-7 {
     width: 100%;
     margin: 0;
+  }
+
+  .paymentBox {
+    width: 400px;
   }
 
   div.mobileRow {
